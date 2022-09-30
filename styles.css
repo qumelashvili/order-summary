@@ -1,0 +1,122 @@
+/* Global Styles */
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    padding: 102px 0px 102px 0px;
+}
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Local Styles */
+.card{
+    width: 450px;
+    border-radius: 20px;
+    position: absolute;
+    border: transparent;  
+}
+.card .main-photo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+.main{
+    padding: 48px;
+    box-sizing: border-box;
+}
+h3{
+    font-weight: 900;
+    font-size: 28px;
+    color: #1F2E55;
+}
+p{
+    line-height: 26px;
+    margin-top: 17px;
+    font-size: 16px;
+
+}
+.plan{
+    width: 100%;
+    height: 98px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    padding: 25px 24px 25px 24px;
+    box-sizing: border-box;
+}
+
+.plan-details img{
+   width: 48px;
+   height: 48px;
+}
+
+.plan-details div p{
+    margin: 0px;
+}
+a{
+    color: #382AE1;
+}
+button{
+    height: 50px;
+}
+.accept{
+    background-color: #382AE1;
+    border: transparent;
+    border-radius: 11px;
+    margin-top: 32px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.cancel{
+    background-color: transparent;
+    border: transparent;
+    margin-top: 15px;
+    color: #717FA6;
+    font-weight: bolder;
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: #766CF1;
+    transition: 0.5s;
+}
+.accept:hover{
+    background-color: #766CF1;
+    transition: 0.5s;
+}
+.cancel:hover{
+    color: black;
+}
+
+
+/* RESPONSIVE! */
+
+@media only screen and (max-width: 490px ) {
+    body{
+        padding: 71px 0px 71px 0px;
+    }
+   .card{
+    width: 90%;
+    height: auto;
+   }
+   .main-photo, .photo-area{
+    width: 100%;
+   }
+   .main{
+    padding: 32px 24px 32px 24px;
+   }
+   .main h3{
+    font-size: 22px;
+   }
+   
+}
+    
+
+
+
+
